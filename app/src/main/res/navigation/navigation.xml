@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/page1fragment">
+
+    <fragment
+        tools:layout="@layout/fragment_page1fragment"
+        android:id="@+id/page1fragment"
+        android:name="com.example.ourclass.fragment.firstlogfragment.page1fragment"
+        android:label="page1fragment" >
+        <action
+            android:id="@+id/action_page1fragment_to_page2fragment"
+            app:destination="@id/page2fragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_page3fragment"
+        android:id="@+id/page3fragment"
+        android:name="com.example.ourclass.fragment.firstlogfragment.page3fragment"
+        android:label="page3fragment" >
+        <action
+            android:id="@+id/action_page3fragment_to_page2fragment"
+            app:destination="@id/page2fragment"
+            app:popUpTo="@+id/page2fragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_page2fragment"
+        android:id="@+id/page2fragment"
+        android:name="com.example.ourclass.fragment.firstlogfragment.page2fragment"
+        android:label="page2fragment" >
+        <action
+            android:id="@+id/action_page2fragment_to_page3fragment"
+            app:destination="@id/page3fragment"
+            app:popUpTo="@+id/page2fragment" />
+        <action
+            android:id="@+id/action_page2fragment_to_page1fragment"
+            app:destination="@id/page1fragment"
+            app:popUpTo="@+id/page1fragment" />
+    </fragment>
+</navigation>

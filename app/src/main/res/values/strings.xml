@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ourclass</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="page1">Belajar menjadi lebih mudah hanya pada genggaman anda.</string>
+    <string name="page2">Dengan harga yang lebih terjangkau tidak menguras saku.</string>
+    <string name="page3">Apakah anda siap untuk menjadi JUARA!!.</string>
+
+</resources>

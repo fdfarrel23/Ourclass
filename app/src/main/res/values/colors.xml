@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#FAFAFA</color>
+    <color name="colorAccent">#BBBBBB</color>
+    <color name="basic_color">#2436A8</color>
+    <color name="outsite_login_box_color">#F8F8F8</color>
+    <color name="login_box_color">#ECECEC</color>
+    <color name="input_box_color">#F9F9F9</color>
+    <color name="header_color">#4A4A4A</color>
+    <color name="search_text_color">#BEBEBE</color>
+</resources>
